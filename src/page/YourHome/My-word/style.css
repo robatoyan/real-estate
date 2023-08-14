@@ -1,0 +1,65 @@
+.MyWord {
+    width: 100%;
+    min-height: 674px;
+    background: linear-gradient(226deg, #271A00 0%, rgba(0, 0, 0, 0.98) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.WordLine {
+    width: 169px;
+    height: 4px;
+    flex-shrink: 0;
+    background: linear-gradient(90deg, #FFAC12 0%, #000 100%);
+}
+
+.MyWord h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: DMSans;
+    font-size: clamp(30px, 5vw, 50px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.256px;
+}
+
+.MyWord p {
+    color: gray;
+    text-align: center;
+    font-family: DMSans;
+    font-size: clamp(16px, 5vw, 20px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.503px;
+}
+
+.MyWord button {
+    width: clamp(150px, 100%, 209px);
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 0px 18px 0px 0px;
+    background: #FFAC12;
+    border: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 19px;
+    color: #000;
+    font-family: DMSans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.427px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.MyWord .fa {
+    color: white;
+}

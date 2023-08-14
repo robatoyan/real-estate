@@ -1,0 +1,126 @@
+.Footer {
+    width: 100%;
+    min-height: 551px;
+    flex-shrink: 0;
+    background: linear-gradient(226deg, #271A00 0%, rgba(0, 0, 0, 0.98) 44.79%);
+    margin-top: 130px;
+    padding-bottom: 100px;
+}
+
+.dreams {
+    width: clamp(200px, 100%, 1069px);
+    margin: 0 auto;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #191818;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.dreams h2 {
+    color: #FFF;
+    font-family: DMSans;
+    font-size: clamp(35px, 5vw, 42px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.055px;
+}
+
+.dreams span {
+    color: #FBA912;
+}
+
+.dreams button {
+    width: clamp(150px, 100%, 211px);
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 0px 18px 0px 0px;
+    background: #FFAC12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 9px;
+    color: #000;
+    font-family: DMSans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.427px;
+    border: unset;
+}
+
+.dreams button .fa {
+    color: white;
+}
+
+.Column_Heading {
+    width: clamp(200px, 100%, 1069px);
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.icons {
+    width: 128px;
+}
+
+.Links {
+    display: flex;
+    justify-content: center;
+    column-gap: 159px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+.Links ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style: none;
+    color: white;
+    font-family: DMSans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.377px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.icons .fa-home {
+    font-size: 30px;
+    color: #FBA912;
+}
+
+.icons div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.icons div .fa {
+    font-size: 20px;
+    color: white;
+}
+@media screen and (max-width:700px) {
+    .Column_Heading{
+        justify-content: center;
+    }
+}

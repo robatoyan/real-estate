@@ -1,0 +1,67 @@
+.SliderSee {
+    width: 100%;
+    min-height: 700px;
+    margin-top: 150px;
+}
+
+.sliderSee-Line {
+    width: 169px;
+    height: 4px;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000 100%);
+    margin: 0 auto;
+}
+
+.SliderSee h1 {
+    width: clamp(200px,100%,300px) ;
+    margin: 0 auto;
+    color: #000;
+    font-family: DMSans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.256px;
+    margin-top: 12px;
+}
+
+.mySwipers {
+    width: clamp(200px, 100%, 1070px);
+    height: 500px;
+    margin: 0 auto;
+    box-shadow: 1px 3px 13px 3px;
+    border-radius: 40px;
+    margin-top: 60px;
+}
+
+.mySwipers button {
+    width: 130px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 0px 18px 0px 0px;
+    background: #000;
+    border: unset;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.mySwipers .Slide {
+    border: 1px solid black;
+}
+
+.slide {
+    height: 370px;
+    box-shadow: 1px 3px 13px 3px;
+}
+
+@media screen and (max-width:1100px) {
+    .sliderSee-Line {
+        margin-left: unset;
+    }
+
+    .SliderSee h1 {
+        margin-left: unset
+    }
+}

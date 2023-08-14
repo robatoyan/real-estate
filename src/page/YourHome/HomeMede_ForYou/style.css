@@ -1,0 +1,90 @@
+.HomeMedeForYou {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 980px;
+    background-image: url(/public/img/img.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.HomeMede {
+    width: clamp(200px, 100%, 519px);
+    min-height: 374px;
+    margin-left: 420px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+    margin-top: 250px;
+    padding-bottom: 40px;
+}
+
+.HomeMede h2 {
+    color: #FFF;
+    font-size: clamp(40px, 5vw, 80px);
+    font-family: DMSans;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2.01px;
+}
+
+.HomeMede p {
+    color: #FFF;
+    font-size: 20px;
+    font-family: DMSans;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.503px;
+}
+
+.See_all_listings {
+    position: absolute;
+    width: clamp(200px, 100%, 1069px);
+    height: 100px;
+    flex-shrink: 0;
+    background-color: white;
+    left: 420px;
+    bottom: -12px;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    column-gap: 15px;
+}
+
+.See_all_listings h3 {
+    color: #000;
+    font-size: 20px;
+    font-family: DMSans;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.503px;
+}
+
+.See_all_listings .fa {
+    font-size: 40px;
+    color: #FFAC12;
+    margin-top: 2px;
+}
+
+@media screen and (max-width:400px) {
+    .HomeMedeForYou {
+        min-height: 600px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .HomeMede {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:1510px) {
+    .See_all_listings {
+        left: 0;
+    }
+}

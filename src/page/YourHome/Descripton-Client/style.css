@@ -1,0 +1,84 @@
+.DescriptonClient {
+    width: clamp(200px, 100%, 1440px);
+    margin: 0 auto;
+    margin-top: 150px;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clientLine {
+    width: clamp(200px, 100%, 336px);
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: linear-gradient(90deg, #FFAC12 0%, #000 100%);
+}
+
+.clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 31px;
+    row-gap: 10px;
+}
+
+.client {
+    width: clamp(200px, 100%, 336px);
+    height: 141px;
+    flex-shrink: 0;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    padding-left: 20px;
+}
+
+.client div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 4px;
+}
+
+.client h2 {
+    color: #000;
+    font-family: DMSans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.377px;
+}
+
+.client p {
+    color: #979797;
+    font-family: DMSans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.377px;
+}
+
+.DescriptonClient .cleint-text {
+    color: #000;
+    font-family: DMSans;
+    font-size: clamp(18px, 5vw, 24px);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.603px;
+    margin-top: 40px;
+}
+@media screen and (max-width:1100px) {
+    .clientes{
+      flex-wrap: wrap;
+      row-gap: 20px;
+    }
+    .client{
+        height: unset;
+    }
+}

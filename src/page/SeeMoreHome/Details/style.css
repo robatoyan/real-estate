@@ -1,0 +1,62 @@
+.Details {
+    width: clamp(200px, 100%, 704px);
+    min-height: 147px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+    margin: 0 auto;
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    overflow: hidden;
+}
+
+.Details h2 {
+    margin-left: 20px;
+    color: #000;
+    font-family: DMSans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.503px;
+}
+
+.Details ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    color: #000;
+    font-family: DMSans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.427px;
+}
+
+.Details ul li {
+    width: clamp(200px, 100%, 233px);
+    height: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.Details ul :nth-child(2) {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+@media screen and (max-width:480px) {
+    .Details ul :nth-child(2) {
+        border: unset;
+    }
+}

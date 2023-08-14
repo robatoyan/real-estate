@@ -1,0 +1,179 @@
+.SwiperSlider {
+    width: clamp(200px, 100%, 1169px);
+    min-height: 620px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    column-gap: 23px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.mySwiper {
+    width: clamp(200px, 100%, 600px);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.mySwipersChk {
+    width: clamp(200px, 100%, 500px);
+}
+
+.mySwipersChk img {
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.ChekImg {
+    width: clamp(200px, 100%, 400px);
+    height: 400px;
+}
+.ChekImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.Date {
+    width: clamp(200px, 100%, 336px);
+    min-height: 520px;
+    flex-shrink: 0;
+    background-color: white;
+    border-radius: 25px;
+    box-shadow: 0px 32px 34px 0px rgba(0, 0, 0, 0.13);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.DateImg {
+    width: 296px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F5F5F5;
+}
+
+.Date form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Date form input {
+    width: 296px;
+    height: 60px;
+    flex-shrink: 0;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.Date form textarea {
+    width: 296px;
+    height: 100px;
+    flex-shrink: 0;
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+}
+
+.Date form button {
+    width: 296px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 0px 18px 0px 0px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 19px;
+    color: #FFF;
+    font-family: DMSans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.427px;
+    cursor: pointer;
+}
+
+.Date form button .fa {
+    color: #FFAC12;
+    font-size: 20px;
+}
+
+.DateImg {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.DateImg img {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+}
+
+.DateImg h2 {
+    color: #000;
+    font-family: DMSans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.377px;
+}
+
+.DateImg h3 {
+    color: #FFAC12;
+    font-family: DMSans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.327px;
+}
+
+@media screen and (max-width:350px) {
+    .ChekImg{
+        height: 300px;
+    }
+    .DateImg {
+        width: 196px;
+        height: 70px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: #F5F5F5;
+    }
+
+    .Date form textarea {
+        width: 196px;
+    }
+
+    .Date form input {
+        width: 196px;
+        height: 60px;
+        flex-shrink: 0;
+        border: 1px solid #EBEBEB;
+        border-radius: 10px;
+        padding-left: 20px;
+    }
+
+    .Date form button {
+        width: 196px;
+    }
+
+}
